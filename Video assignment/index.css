@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.reper-div{
+    width: 900px;
+    height: 400px;
+    margin: 50px auto;
+    border: 2px solid rebeccapurple;
+    text-align: center;
+
+}
+.repar-div1{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    display: inline-block;
+    margin-top: 50px;
+    transform: translate(-0, 0);
+    transition: 1.4s;
+}
+.repar-div1:hover{
+    transform: translate(-20px,40px);
+}
+.repar-div2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(248, 14, 170);
+    display: inline-block;
+    margin-top: 50px;
+    transform: rotate(0,);
+    transition: 1s;
+}
+.repar-div2:hover{
+    transform: rotate(67deg);
+}
+.repar-div3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(88, 16, 156);
+    display: inline-block;
+    margin-top: 50px;
+    transform:skew(0,0);
+    transition: 2s;
+
+}
+.repar-div3:hover{
+    transform: skew(34deg,12deg);
+}
+.repar-div4{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(32, 22, 2);
+    display: inline-block;
+    margin-top: 50px;
+    transform: scale(1,.4);
+    transition: 2s;
+}
+.repar-div4:hover{
+    transform: scale(.1,.4);
+}
+.imgber{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid yellowgreen;
+}
+.imgber img{
+    max-width: 100%;
+    cursor: pointer;
+    transition: 2s;
+
+}
+.imgber img:hover{
+    transform: scale(.1) rotate(360deg);
+}
+
+    
